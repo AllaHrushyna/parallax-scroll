@@ -1,0 +1,69 @@
+
+.wrapper {
+    height: 100vh;
+}
+
+body {
+    background-color: rgb(207, 241, 241);
+    margin: 0;
+    
+
+}
+
+h1 {
+    color: rgb(248, 248, 69);
+    text-align: center;
+    font-size: 120px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: 5px underline;
+    text-shadow: 20px 20px 30px rgb(12, 10, 10);
+}
+
+section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-size: 25px;
+    color: rgb(222, 248, 129);
+    text-shadow: 5px 5px 10px rgb(18, 44, 119);
+    background-color: rgb(8, 182, 138);
+    padding: 30px 10px 30px 10px;
+    margin: 0;
+    
+    
+}
+
+/*BEELDEN*/
+
+#bg1 {
+    background-image: url(src/beeld-1.jpg);
+}
+#bg2 {
+    background-image: url(src/beeld-2.jpg);
+}
+#bg3 {
+    background-image: url(src/beeld-3.jpg);
+}
+#bg4 {
+    background-image: url(src/beeld-4.jpg);
+}
+#bg5 {
+    background-image: url(src/beeld-5.jpg);
+}
+#bg6 {
+    background-image: url(src/beeld-6.jpg);
+}
+
+/*EFFECT*/
+
+.parallax {
+    height: 50vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
